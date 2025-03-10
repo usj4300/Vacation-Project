@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Cambria,  sans-serif;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #0f5353;
+}
+
+.holiday-heading{
+    font-size: 90px;
+    color: gray;
+    }
+    
+    .holiday-text{
+        padding: 25px;
+        color: #bfbebe;
+    }
+     
+
+.landing-page{
+    background: white url(../images/Hotel_front_view.jpg) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+    color: teal;
+
+}
+
+.landing-page .wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.landing-page .flex-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-page .Vacations-Heading{
+    font-size: 100px;
+    color: #7e7e7e;
+}
+
+.Vacation-Header{
+    background: radial-gradient(#0f5353,teal);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.Vacation-Header .Heading{
+    font-size: 100px;
+}
+
+.main-nav{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0;
+}
+
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.main-nav a:hover{
+    background-color: #0f5353;
+    color: white;
+    border-radius: 20px 20px;
+}
+
+/**  Holiday section   */
+.holiday-section{
+    padding: 100px 40px;
+    text-align: center;
+}
+
+/** places-to-visit-section*/
+.places-to-visit-section{
+    text-align: center;
+}
+
+.places-to-visit-section .holiday-heading{
+    padding-top: 50px;
+}
+
+.places-to-visit-section .places-div{
+    margin-top: 20px;
+    display: inline-block;
+}
+ 
+.places-to-visit-section img{
+    height: 300px;
+    width: 200px;
+}
+
+/**  Gallery section   */
+.gallery-section{
+    text-align: center;
+    padding: 100px;
+}
+ 
+.gallery-section .gallery div{
+    margin-top: 20px;
+}
+
+.gallery-section .gallery-wrapper{
+    width: 380px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+.gallery-section .gallery-wrapper img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px gray;
+}
+.gallery-section .gallery-wrapper img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+/**  Packages section   */
+.packages-section{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.packages-section .packages-wrapper{
+    margin-top: 40px';
+    padding: 30px;
+}
+
+.packages-wrapper .packages-card{
+    box-shadow: 0 0 7px gray; 
+    border-radius: 5px;
+    width: 300px ;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px;  
+}
+
+.packages-card img{
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;  
+}
+
+.packages-card .card-heading{
+    font-size: 30px;
+}
+
+.packages-card .card-text{
+    font-size: 18px;
+    color: gray;
+}
+
+.packages-card .btn{
+    border-radius: 50px;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    margin-top: 10px;
+}
+
+.footer-section{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.footer-section a{
+    color: teal;
+    text-decoration: none;
+    font-weight:bold;
+}

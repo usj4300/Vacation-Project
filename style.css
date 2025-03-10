@@ -37,7 +37,7 @@ body{
      
 
 .landing-page{
-    background: white url(../images/Hotel_front_view.jpg) no-repeat scroll center;
+    background: white url(../Hotel_front_view.jpg) no-repeat scroll center;
     height: 100vh;
     background-size: cover;
     color: teal;
